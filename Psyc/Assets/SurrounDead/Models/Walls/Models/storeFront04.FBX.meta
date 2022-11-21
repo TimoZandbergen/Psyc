@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 7fb86cdd6cc0b2446904d1b401224dae
+timeCreated: 1558717288
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Object394
+    100002: //RootNode
+    100004: storeFront04_door_glassR
+    100006: storeFront04_door_L
+    100008: storeFront04_door_R
+    100010: storeFront04_glass01
+    100012: storeFront04_glass02
+    100014: storeFront04_glass03
+    100016: storeFront04_glass04
+    100018: storeFront04_glass05
+    100020: storeFront04_door_glassL
+    400000: Object394
+    400002: //RootNode
+    400004: storeFront04_door_glassR
+    400006: storeFront04_door_L
+    400008: storeFront04_door_R
+    400010: storeFront04_glass01
+    400012: storeFront04_glass02
+    400014: storeFront04_glass03
+    400016: storeFront04_glass04
+    400018: storeFront04_glass05
+    400020: storeFront04_door_glassL
+    2100000: concrete01
+    2100002: Floor01
+    2100004: storeFront04
+    2100006: Wall30
+    2100008: storeFront04_glass
+    2300000: Object394
+    2300002: //RootNode
+    2300004: storeFront04_door_glassR
+    2300006: storeFront04_door_L
+    2300008: storeFront04_door_R
+    2300010: storeFront04_glass01
+    2300012: storeFront04_glass02
+    2300014: storeFront04_glass03
+    2300016: storeFront04_glass04
+    2300018: storeFront04_glass05
+    2300020: storeFront04_door_glassL
+    3300000: Object394
+    3300002: //RootNode
+    3300004: storeFront04_door_glassR
+    3300006: storeFront04_door_L
+    3300008: storeFront04_door_R
+    3300010: storeFront04_glass01
+    3300012: storeFront04_glass02
+    3300014: storeFront04_glass03
+    3300016: storeFront04_glass04
+    3300018: storeFront04_glass05
+    3300020: storeFront04_door_glassL
+    4300000: storeFront04
+    4300002: storeFront04_glass01
+    4300004: storeFront04_glass03
+    4300006: storeFront04_glass04
+    4300008: storeFront04_glass05
+    4300010: storeFront04_glass02
+    4300012: storeFront04_door_L
+    4300014: Object394
+    4300016: storeFront04_door_R
+    4300018: storeFront04_door_glassR
+    4300020: storeFront04_door_glassL
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor01
+    second: {fileID: 2100000, guid: 61c59831a36698f40b4f820b474823ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall30
+    second: {fileID: 2100000, guid: b432346e5287b9849893ed7815d05ff2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: concrete01
+    second: {fileID: 2100000, guid: ba158dc7abf3bcc4f83b46c2261e99e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: storeFront04
+    second: {fileID: 2100000, guid: 7c15165dc7fac5b49aca58a906bfc3e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: storeFront04_glass
+    second: {fileID: 2100000, guid: 2ad7a494e15f5de48b9fefaeb8e532a7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

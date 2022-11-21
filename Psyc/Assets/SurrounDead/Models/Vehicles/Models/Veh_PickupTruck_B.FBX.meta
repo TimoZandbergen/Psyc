@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: 4f5c2ac03477bdb48bb9edd21551426e
+timeCreated: 1522923909
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: door_frontL
+    100002: door_frontR
+    100004: glass_frontL
+    100006: glass_frontR
+    100008: glass_windshieldFront
+    100010: glass_windshieldRear
+    100012: hood
+    100014: light_frontL
+    100016: light_frontR
+    100018: light_rearL
+    100020: light_rearR
+    100022: seats
+    100024: tailgate
+    100026: //RootNode
+    100028: wheel_BL
+    100030: wheel_BR
+    100032: wheel_FL
+    100034: wheel_FR
+    100036: Veh_PickupTruck_B
+    100038: wheel_FL001
+    100040: wheel_backL
+    100042: wheel_backR
+    100044: wheel_frontL
+    100046: wheel_frontR
+    400000: door_frontL
+    400002: door_frontR
+    400004: glass_frontL
+    400006: glass_frontR
+    400008: glass_windshieldFront
+    400010: glass_windshieldRear
+    400012: hood
+    400014: light_frontL
+    400016: light_frontR
+    400018: light_rearL
+    400020: light_rearR
+    400022: seats
+    400024: tailgate
+    400026: //RootNode
+    400028: wheel_BL
+    400030: wheel_BR
+    400032: wheel_FL
+    400034: wheel_FR
+    400036: Veh_PickupTruck_B
+    400038: wheel_FL001
+    400040: wheel_backL
+    400042: wheel_backR
+    400044: wheel_frontL
+    400046: wheel_frontR
+    2300000: door_frontL
+    2300002: door_frontR
+    2300004: glass_frontL
+    2300006: glass_frontR
+    2300008: glass_windshieldFront
+    2300010: glass_windshieldRear
+    2300012: hood
+    2300014: light_frontL
+    2300016: light_frontR
+    2300018: light_rearL
+    2300020: light_rearR
+    2300022: seats
+    2300024: tailgate
+    2300026: //RootNode
+    2300028: wheel_BL
+    2300030: wheel_BR
+    2300032: wheel_FL
+    2300034: wheel_FR
+    2300036: Veh_PickupTruck_B
+    2300038: wheel_FL001
+    2300040: wheel_backL
+    2300042: wheel_backR
+    2300044: wheel_frontL
+    2300046: wheel_frontR
+    3300000: door_frontL
+    3300002: door_frontR
+    3300004: glass_frontL
+    3300006: glass_frontR
+    3300008: glass_windshieldFront
+    3300010: glass_windshieldRear
+    3300012: hood
+    3300014: light_frontL
+    3300016: light_frontR
+    3300018: light_rearL
+    3300020: light_rearR
+    3300022: seats
+    3300024: tailgate
+    3300026: //RootNode
+    3300028: wheel_BL
+    3300030: wheel_BR
+    3300032: wheel_FL
+    3300034: wheel_FR
+    3300036: Veh_PickupTruck_B
+    3300038: wheel_FL001
+    3300040: wheel_backL
+    3300042: wheel_backR
+    3300044: wheel_frontL
+    3300046: wheel_frontR
+    4300000: Veh_PickupTruck_B
+    4300002: wheel_FL
+    4300004: wheel_FR
+    4300006: wheel_BL
+    4300008: wheel_BR
+    4300010: glass_windshieldFront
+    4300012: glass_windshieldRear
+    4300014: tailgate
+    4300016: hood
+    4300018: door_frontL
+    4300020: glass_frontL
+    4300022: door_frontR
+    4300024: glass_frontR
+    4300026: seats
+    4300028: light_frontR
+    4300030: light_rearL
+    4300032: light_rearR
+    4300034: light_frontL
+    4300036: wheel_FL001
+    4300038: wheel_frontL
+    4300040: wheel_frontR
+    4300042: wheel_backL
+    4300044: wheel_backR
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

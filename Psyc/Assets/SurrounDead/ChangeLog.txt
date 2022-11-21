@@ -1,0 +1,115 @@
+---Update v3.5 City buildings 
+
+**NEW: 169 new assets (181 prefabs)
+- added Scene City
+- added 76 addons (air ducts, antennas, awnings, billboards, chimneys, fire escapes, ladder, railings, rainwater pipe, signage, skylight, stairs, water tank).
+- added 10 barricades (plywood, cloth)
+- added 13 doors & 12 windows 
+- added walls for the new window and door types
+- added 4 floors & foundations
+- added 2 roof types
+- added roof access 
+- added 3 cornice types
+- added pavement modules
+- added 6 sidewalk props (tree bed , tree fence, iron fence)
+- added storefronts(entrance, doors, windows, pillars)
+- added elevator(entrance,shaft rail)
+- added over 170 materials/textures
+
+*CHANGES:
+- flat roofs rework(roof has been separated from the edge so you can rotate it independently)
+	- roof02 pivot moved closer to mesh
+	- removed roof02_corner_destroyed
+	- removed roof02_edge_destroyed
+	- all roof02_middle*** renamed to roof_flat
+- replaced ladder01 with a modular version.
+
+*FIXES:
+- Fixed pillar01_B top texture UV
+- Fixed sidewalk_corner UV texture
+__________________________________________
+
+---UPDATE v3.4 -- Streets, street props, street decals, sidewalks
+
+*NEW: 179 new assets (196 prefabs)
+- added Scene Neighborhood
+- added 63 new textures + 2 .PSD files for traffic sign names customization
+- added 71 streets (streets, sidewalks) 
+- added 23 street decals
+- added 102 street props  
+
+*CHANGES:
+- slight modifications to demo scene, replaced old streets with new ones
+- removed ROADS folder and it's contents and replaced it with STREETS
+__________________________________________
+
+---UPDATE v3.3 -- Destroyed Walls, Fences and Ivy overgrowth
+
+BACKUP BEFORE UPDATING. Fences position may change, if not snapped.
+*NEW - 60 new assets (60 prefabs)
+- added 22 destroyed walls, roofs and floors assets
+- added 9 debris
+- added 13 ivy Nature assets
+- added ivy texture
+- added 9 broken fences and 2 gates
+- added 5 separate fence poles
+- added wall00_B texture (wall cross section)
+
+*CHANGES
+- improved texture for fences
+- improved texture for sandbags
+- walls now have wall00_B(cross section) material as default instead of wall00(white concrete)
+- fences now have a single pole for a more modular approach (single pole between fences, from |=||=| to |=|=| )
+- fence_concrete_c remake
+- slight modifications to demo scenes.
+- added School Bus and Van roofs as separate mesh for top down view visibility
+__________________________________________
+
+---Update v3.2 -- Vehicles
+
+*NEW - 32 new assets (62 prefabs)
+- added 6 vehicles each with 2 variations (normal and wrecked) for a total of 12 unique models
+- added 48 materials
+- added 44 textures
+- added 20 vehicle parts
+- added 19 custom made coliders
+- removed old bus
+__________________________________________
+
+---UPDATE v3.1 -- Nature & Lights
+
+*NEW - 102 new assets
+- added 13 cabin related assets
+(chimney, porch_railing, stairs x 2, Stove02 with modular parts, door, window, round pillar, corner pillar)
+- added 23 Light props with emmision maps (lamps, lantern, lightswitch, sockets)
+- added 33 Nature assets (cut coniferous trees, birch trees,cut birch trees, cattail, mushrooms, waterlily)
+- added HIT animation to all trees, animation ranges (0-60 Sway , 60-70 Hit)
+- added 23 props (campfire, cooking pots, frying pan, boat, rafts, modular pier, tent, stove portable, wood pile)
+- added 10 basic resources (rope, branches, logs, metal scraps, wood planks, rocks)
+- added a few wall textures
+- added a floor texture
+- added 2 new scenes (Cabin and Camp)
+
+*CHANGES
+- all doors have thresholds
+- all static trees have been replaced with animated trees, now all trees have animations and backface because there were too many variations.
+- tree bone renamed, now all share the same name
+- fixed some roof textures
+- chimney mesh cleanup and uv rescale
+- windows glass as a separated mesh
+__________________________________________
+
+---UPDATE v3.0 
+NOTE*** Strongly recomanded to delete the old SurrounDead folder before importing this new version or import in a new project. 
+
+- added interior props (121 new assets) 
+- improved Barricades texture 
+- improved Props texture and added a few more model variations 
+- added 9 new food and drinks Items 
+- added transparent/emissive glass for windows but the old, opaque one can still be used 
+- added a few wall textures 
+- renamed a few assests for a more consistent naming 
+- removed houses prefabs because prefab links were broken due to being nested and were not updated accordingly 
+- replaced the scene demo with new ones
+
+

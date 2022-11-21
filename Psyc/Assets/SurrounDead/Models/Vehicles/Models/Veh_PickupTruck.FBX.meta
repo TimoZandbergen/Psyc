@@ -1,0 +1,315 @@
+fileFormatVersion: 2
+guid: 9d5152ad0e4618347bda3d2eb093e04b
+timeCreated: 1519311036
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bumper
+    100004: CHAIR001
+    100006: door
+    100008: door 1
+    100010: driving wheel
+    100012: glass
+    100014: hood
+    100016: Object157
+    100018: wheel
+    100020: wheel 1
+    100022: door_left
+    100024: door_right
+    100026: glass_doorL
+    100028: glass_doorR
+    100030: glass_front
+    100032: glass_rear
+    100034: tailgate
+    100036: wheel_BL
+    100038: wheel_BR
+    100040: wheel_FL
+    100042: wheel_FR
+    100044: door_frontL
+    100046: door_frontR
+    100048: glass_frontL
+    100050: glass_frontR
+    100052: glass_windshieldFront
+    100054: glass_windshieldRear
+    100056: seats
+    100058: Veh_PickupTruck
+    100060: light_frontL
+    100062: light_frontR
+    100064: light_rearL
+    100066: light_rearR
+    100068: door_frontL_COL
+    100070: door_frontR_COL
+    100072: hood_COL
+    100074: tailgate_COL
+    100076: Veh_PickupTruck_COL
+    100078: wheel_BL_COL
+    100080: wheel_BR_COL
+    100082: wheel_FL_COL
+    100084: wheel_FR_COL
+    100086: wheel_backL
+    100088: wheel_backR
+    100090: wheel_frontL
+    100092: wheel_frontR
+    400000: //RootNode
+    400002: bumper
+    400004: CHAIR001
+    400006: door
+    400008: door 1
+    400010: driving wheel
+    400012: glass
+    400014: hood
+    400016: Object157
+    400018: wheel
+    400020: wheel 1
+    400022: door_left
+    400024: door_right
+    400026: glass_doorL
+    400028: glass_doorR
+    400030: glass_front
+    400032: glass_rear
+    400034: tailgate
+    400036: wheel_BL
+    400038: wheel_BR
+    400040: wheel_FL
+    400042: wheel_FR
+    400044: door_frontL
+    400046: door_frontR
+    400048: glass_frontL
+    400050: glass_frontR
+    400052: glass_windshieldFront
+    400054: glass_windshieldRear
+    400056: seats
+    400058: Veh_PickupTruck
+    400060: light_frontL
+    400062: light_frontR
+    400064: light_rearL
+    400066: light_rearR
+    400068: door_frontL_COL
+    400070: door_frontR_COL
+    400072: hood_COL
+    400074: tailgate_COL
+    400076: Veh_PickupTruck_COL
+    400078: wheel_BL_COL
+    400080: wheel_BR_COL
+    400082: wheel_FL_COL
+    400084: wheel_FR_COL
+    400086: wheel_backL
+    400088: wheel_backR
+    400090: wheel_frontL
+    400092: wheel_frontR
+    2300000: //RootNode
+    2300002: bumper
+    2300004: CHAIR001
+    2300006: door
+    2300008: door 1
+    2300010: driving wheel
+    2300012: glass
+    2300014: hood
+    2300016: wheel
+    2300018: wheel 1
+    2300020: door_left
+    2300022: door_right
+    2300024: glass_doorL
+    2300026: glass_doorR
+    2300028: glass_front
+    2300030: glass_rear
+    2300032: tailgate
+    2300034: wheel_BL
+    2300036: wheel_BR
+    2300038: wheel_FL
+    2300040: wheel_FR
+    2300042: door_frontL
+    2300044: door_frontR
+    2300046: glass_frontL
+    2300048: glass_frontR
+    2300050: glass_windshieldFront
+    2300052: glass_windshieldRear
+    2300054: seats
+    2300056: Veh_PickupTruck
+    2300058: light_frontL
+    2300060: light_frontR
+    2300062: light_rearL
+    2300064: light_rearR
+    2300066: door_frontL_COL
+    2300068: door_frontR_COL
+    2300070: hood_COL
+    2300072: tailgate_COL
+    2300074: Veh_PickupTruck_COL
+    2300076: wheel_BL_COL
+    2300078: wheel_BR_COL
+    2300080: wheel_FL_COL
+    2300082: wheel_FR_COL
+    2300084: wheel_backL
+    2300086: wheel_backR
+    2300088: wheel_frontL
+    2300090: wheel_frontR
+    3300000: //RootNode
+    3300002: bumper
+    3300004: CHAIR001
+    3300006: door
+    3300008: door 1
+    3300010: driving wheel
+    3300012: glass
+    3300014: hood
+    3300016: wheel
+    3300018: wheel 1
+    3300020: door_left
+    3300022: door_right
+    3300024: glass_doorL
+    3300026: glass_doorR
+    3300028: glass_front
+    3300030: glass_rear
+    3300032: tailgate
+    3300034: wheel_BL
+    3300036: wheel_BR
+    3300038: wheel_FL
+    3300040: wheel_FR
+    3300042: door_frontL
+    3300044: door_frontR
+    3300046: glass_frontL
+    3300048: glass_frontR
+    3300050: glass_windshieldFront
+    3300052: glass_windshieldRear
+    3300054: seats
+    3300056: Veh_PickupTruck
+    3300058: light_frontL
+    3300060: light_frontR
+    3300062: light_rearL
+    3300064: light_rearR
+    3300066: door_frontL_COL
+    3300068: door_frontR_COL
+    3300070: hood_COL
+    3300072: tailgate_COL
+    3300074: Veh_PickupTruck_COL
+    3300076: wheel_BL_COL
+    3300078: wheel_BR_COL
+    3300080: wheel_FL_COL
+    3300082: wheel_FR_COL
+    3300084: wheel_backL
+    3300086: wheel_backR
+    3300088: wheel_frontL
+    3300090: wheel_frontR
+    4300000: Veh_PickupTruck
+    4300002: bumper
+    4300004: hood
+    4300006: driving wheel
+    4300008: CHAIR001
+    4300010: wheel
+    4300012: wheel
+    4300014: door
+    4300016: door
+    4300018: glass
+    4300020: pickuptruck
+    4300022: wheel_FL
+    4300024: wheel_FR
+    4300026: wheel_BL
+    4300028: wheel_BR
+    4300030: glass_front
+    4300032: glass_rear
+    4300034: tailgate
+    4300036: door_left
+    4300038: glass_doorL
+    4300040: door_right
+    4300042: glass_doorR
+    4300044: glass_windshieldFront
+    4300046: glass_windshieldRear
+    4300048: door_frontL
+    4300050: glass_frontL
+    4300052: door_frontR
+    4300054: glass_frontR
+    4300056: seats
+    4300058: light_rearR
+    4300060: light_rearL
+    4300062: light_frontL
+    4300064: light_frontR
+    4300066: wheel_FL_COL
+    4300068: wheel_FR_COL
+    4300070: wheel_BL_COL
+    4300072: wheel_BR_COL
+    4300074: tailgate_COL
+    4300076: hood_COL
+    4300078: door_frontL_COL
+    4300080: door_frontR_COL
+    4300082: Veh_PickupTruck_COL
+    4300084: wheel_frontL
+    4300086: wheel_frontR
+    4300088: wheel_backL
+    4300090: wheel_backR
+    6400000: door_frontL
+    6400002: door_frontR
+    6400004: glass_frontL
+    6400006: glass_frontR
+    6400008: glass_windshieldFront
+    6400010: glass_windshieldRear
+    6400012: hood
+    6400014: light_frontL
+    6400016: light_frontR
+    6400018: light_rearL
+    6400020: light_rearR
+    6400022: seats
+    6400024: tailgate
+    6400026: //RootNode
+    6400028: wheel_BL
+    6400030: wheel_BR
+    6400032: wheel_FL
+    6400034: wheel_FR
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
