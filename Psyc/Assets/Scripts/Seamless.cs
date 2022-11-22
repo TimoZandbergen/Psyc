@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,15 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class Seamless : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private bool _nextScene;
+    
+    private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(0);
+        _nextScene = true;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        SceneManager.LoadScene(1);
+        if (_nextScene) SceneManager.LoadScene(1);
     }
 }
