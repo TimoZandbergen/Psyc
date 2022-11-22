@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: b219a4b638ddcd242b44ea64557c9ddc
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: house_2_LOD0
+  - first:
+      1: 100002
+    second: house_2_LOD001
+  - first:
+      1: 100004
+    second: house_2_LOD002
+  - first:
+      1: 100006
+    second: house_2_LOD003
+  - first:
+      1: 100008
+    second: //RootNode
+  - first:
+      4: 400000
+    second: house_2_LOD0
+  - first:
+      4: 400002
+    second: house_2_LOD001
+  - first:
+      4: 400004
+    second: house_2_LOD002
+  - first:
+      4: 400006
+    second: house_2_LOD003
+  - first:
+      4: 400008
+    second: //RootNode
+  - first:
+      21: 2100000
+    second: wood_beams.001
+  - first:
+      21: 2100002
+    second: wood_wall_2.001
+  - first:
+      21: 2100004
+    second: wood_wal_2b
+  - first:
+      21: 2100006
+    second: thatch_end_b
+  - first:
+      21: 2100008
+    second: stone_wall.001
+  - first:
+      21: 2100010
+    second: wood_wall_no_snow
+  - first:
+      21: 2100012
+    second: thatch
+  - first:
+      21: 2100014
+    second: thatch_end
+  - first:
+      21: 2100016
+    second: thatch_end_c
+  - first:
+      21: 2100018
+    second: wood_beams
+  - first:
+      21: 2100020
+    second: wood_wall_2
+  - first:
+      21: 2100022
+    second: stone_wall
+  - first:
+      21: 2100024
+    second: door
+  - first:
+      23: 2300000
+    second: house_2_LOD0
+  - first:
+      23: 2300002
+    second: house_2_LOD001
+  - first:
+      23: 2300004
+    second: house_2_LOD002
+  - first:
+      23: 2300006
+    second: house_2_LOD003
+  - first:
+      33: 3300000
+    second: house_2_LOD0
+  - first:
+      33: 3300002
+    second: house_2_LOD001
+  - first:
+      33: 3300004
+    second: house_2_LOD002
+  - first:
+      33: 3300006
+    second: house_2_LOD003
+  - first:
+      43: 4300000
+    second: house_2_LOD003
+  - first:
+      43: 4300002
+    second: house_2_LOD002
+  - first:
+      43: 4300004
+    second: house_2_LOD001
+  - first:
+      43: 4300006
+    second: house_2_LOD0
+  - first:
+      205: 20500000
+    second: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door
+    second: {fileID: 2100000, guid: a0aaa761eb4674e439a873cbb2595202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone_wall
+    second: {fileID: 2100000, guid: 24968ec7452c07c439ead5bc4082f0a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thatch
+    second: {fileID: 2100000, guid: 3442214246998fd4c8fa6c450c8f1b25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thatch_end
+    second: {fileID: 2100000, guid: dfd45f88bee527441a1465b6461b805d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thatch_end_b
+    second: {fileID: 2100000, guid: bcc177cc445314542b7d862278f058e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thatch_end_c
+    second: {fileID: 2100000, guid: a25a8db2a169c434889ece5bec8d7720, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_beams
+    second: {fileID: 2100000, guid: 94348e53c1073c44fa6dffd41ba852a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_wal_2b
+    second: {fileID: 2100000, guid: 11c6f7eccfd19794d842f294391246b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_wall_2
+    second: {fileID: 2100000, guid: ef996fed1c1bf3f4b80d172504ddede6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_wall_no_snow
+    second: {fileID: 2100000, guid: 11c6f7eccfd19794d842f294391246b4, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
