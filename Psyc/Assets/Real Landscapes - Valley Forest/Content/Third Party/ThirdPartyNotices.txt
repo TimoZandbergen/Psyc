@@ -1,0 +1,8 @@
+The asset pack is governed by the Asset Store EULA; however, the following components are governed by the licenses indicated below:
+
+abandoned_tank_farm_04_4k_m.exr
+umhlanga_sunrise_4k.hdr
+kloppenheim_06_4k.hdr
+
+License: CC0 https://creativecommons.org/share-your-work/public-domain/cc0/
+Source: hdrihaven.com
