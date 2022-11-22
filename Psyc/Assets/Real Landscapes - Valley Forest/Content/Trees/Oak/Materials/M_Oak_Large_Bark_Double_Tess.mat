@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Oak_Large_Bark_Double_Tess
+  m_Shader: {fileID: 4800000, guid: aa57f9b5f24ba7449887cbfae354f2f0, type: 3}
+  m_ShaderKeywords: _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: a2732e0630ee9f84c9c21c70be674f2c, type: 3}
+        m_Scale: {x: 2, y: 1.5}
+        m_Offset: {x: -0.25, y: 1.5}
+    - _BottomAlbedo:
+        m_Texture: {fileID: 2800000, guid: 56b6155ed83dbb34a961e310e7711cd3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BottomMask:
+        m_Texture: {fileID: 2800000, guid: b0e1c15906bb905438c40cff7fceaf6c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BottomNormal:
+        m_Texture: {fileID: 2800000, guid: 28b8bed06a9a18444b9bc77dbb9dbdf5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 106c244233efea54c9225f76e34764a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 56b6155ed83dbb34a961e310e7711cd3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 29bcd0a346a3a0344ac6aa5d1f4bdd46, type: 3}
+        m_Scale: {x: 2, y: 1.5}
+        m_Offset: {x: -0.25, y: 1.5}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 4d42af96c852f474fa8263fd309f1532, type: 3}
+        m_Scale: {x: 2, y: 1.5}
+        m_Offset: {x: -0.25, y: 1.5}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 0462419093531034aa7289ae677a0e18, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowAlbedo:
+        m_Texture: {fileID: 2800000, guid: 435a7ca9c9529ca4e83d0ce5190db3b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowNormal:
+        m_Texture: {fileID: 2800000, guid: 4e715636e6257c94cb6fd33252d71d96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlendStrength: 1
+    - _BottomHeightMax: 0.23
+    - _BottomHeightMin: -0.2
+    - _BottomSmoothness: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DisplacementStrength: 1.66
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.15
+    - _GlossyReflections: 1
+    - _HeightMax: 0.12
+    - _HeightMin: -0.02
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SnowAmount: 2
+    - _SnowMaskSharpness: 1.72
+    - _SnowSmoothness: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TessMax: 18
+    - _TessMin: 4
+    - _TessPhongStrength: 1
+    - _TessValue: 18
+    - _TessellationSeamMask: 1.85
+    - _TessellationSeamOffset: 0.02
+    - _TurbulenceStrength: 0.2
+    - _UVSec: 0
+    - _WindNoiseScale: 1
+    - _WindSpeed: 1
+    - _WindStrength: 0.3
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
