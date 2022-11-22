@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: e8c2e60ad42a5a24e8bb37c560425ba1,
     type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 9fb3b8cfe3c1c8243af14550ca1f6945,
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 993158e2383a0c742b7e94addaaa53ce,
     type: 2}
 --- !u!196 &5
 NavMeshSettings:
@@ -2902,7 +2902,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 7350b65a6431f604a8496c39db1ac9c5, type: 2}
@@ -6035,7 +6035,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 08b60ef09b87b2642869fa66a748bee1, type: 2}
