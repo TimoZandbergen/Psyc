@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +6,6 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     public CharacterController controller;
-
     public float speed = 12f;
     public float gravity = -9.81f;
 
@@ -15,7 +15,7 @@ public class PlayerMove : MonoBehaviour
 
     Vector3 velocity;
     bool isGrounded;
-
+    
     // Update is called once per frame
     void Update()
     {
