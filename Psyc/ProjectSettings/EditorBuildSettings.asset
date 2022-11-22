@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SurrounDead/Demo Scenes/Scene City.unity
     guid: daa7e109cebdbe143a374ebb82cd408d
+  - enabled: 1
+    path: Assets/Real Landscapes - Valley Forest/Scenes/Built-in/Demo_Overview.unity
+    guid: 2b8654bce9eb91c42859bb4c56af0b2c
   m_configObjects: {}
