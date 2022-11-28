@@ -297,11 +297,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0df61f5e82deaa4ab5ab60fef0ac893, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 3.5
   jumpSpeed: 8
-  gravity: 0
+  gravity: 20
   playerCamera: {fileID: 7735990636614522268}
-  lookSpeed: 2
+  lookSpeed: 3
   lookXLimit: 60
   canMove: 1
 --- !u!143 &8640578166943933594
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30d0c7ce3d203cb46bff010e1cadaa73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crosshairTexture: {fileID: 0}
+  crosshairTexture: {fileID: 2800000, guid: de1db188dd059dd47801ef6bcdfc92ba, type: 3}
   playerController: {fileID: 7735990637505615324}
   availableItems:
-  - {fileID: 0}
+  - {fileID: 3731631153745318157, guid: b1fdfaf80012b7b428009df722277c7a, type: 3}

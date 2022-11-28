@@ -75,7 +75,8 @@ namespace Player
             {
                 if (_hoveringOverIndex < 0)
                 {
-                    Instantiate(availableItems[itemSlots[_itemIndexToDrag]], playerController.playerCamera.transform.position + (playerController.playerCamera.transform.forward), Quaternion.identity);
+                    var transform1 = playerController.playerCamera.transform;
+                    Instantiate(availableItems[itemSlots[_itemIndexToDrag]], transform1.position + (transform1.forward), Quaternion.identity);
                     itemSlots[_itemIndexToDrag] = -1;
                 }
                 else
