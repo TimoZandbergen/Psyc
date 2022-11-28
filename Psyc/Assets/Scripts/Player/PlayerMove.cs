@@ -20,20 +20,20 @@ namespace Player
         [HideInInspector]
         public bool canMove = true;
 
-        void Start()
+        private void Start()
         {
             _characterController = GetComponent<CharacterController>();
             _rotation.y = transform.eulerAngles.y;
         }
 
-        void Update()
+        private void Update()
         {
             if (_characterController.isGrounded)
             {
                 Vector3 forward = transform.TransformDirection(Vector3.forward);
                 Vector3 right = transform.TransformDirection(Vector3.right);
-                float curSpeedX = speed * Input.GetAxis("Vertical");
-                float curSpeedY = speed * Input.GetAxis("Horizontal");
+                var curSpeedX = speed * Input.GetAxis("Vertical");
+                var curSpeedY = speed * Input.GetAxis("Horizontal");
                 _moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
                 if (Input.GetButton("Jump"))
@@ -45,14 +45,12 @@ namespace Player
 
             _characterController.Move(_moveDirection * Time.deltaTime);
 
-            if (canMove)
-            {
-                _rotation.y += Input.GetAxis("Mouse X") * lookSpeed;
-                _rotation.x += -Input.GetAxis("Mouse Y") * lookSpeed;
-                _rotation.x = Mathf.Clamp(_rotation.x, -lookXLimit, lookXLimit);
-                playerCamera.transform.localRotation = Quaternion.Euler(_rotation.x, 0, 0);
-                transform.eulerAngles = new Vector2(0, _rotation.y);
-            }
+            if (!canMove) return;
+            _rotation.y += Input.GetAxis("Mouse X") * lookSpeed;
+            _rotation.x += -Input.GetAxis("Mouse Y") * lookSpeed;
+            _rotation.x = Mathf.Clamp(_rotation.x, -lookXLimit, lookXLimit);
+            playerCamera.transform.localRotation = Quaternion.Euler(_rotation.x, 0, 0);
+            transform.eulerAngles = new Vector2(0, _rotation.y);
         }
     }
 }

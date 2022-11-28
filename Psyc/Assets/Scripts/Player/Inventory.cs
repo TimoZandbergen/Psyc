@@ -25,7 +25,7 @@ namespace Player
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
 
-            for (int i = 0; i < itemSlots.Length; i++)
+            for (var i = 0; i < itemSlots.Length; i++)
             {
                 itemSlots[i] = -1;
             }
@@ -105,24 +105,23 @@ namespace Player
         void FixedUpdate()
         {
             RaycastHit hit;
-            Ray ray = playerController.playerCamera.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
+            var ray = playerController.playerCamera.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
 
             if (Physics.Raycast(ray, out hit, 2.5f))
             {
-                Transform objectHit = hit.transform;
+                var objectHit = hit.transform;
 
                 if (objectHit.CompareTag("Respawn"))
                 {
-                    if ((_detectedItem == null || _detectedItem.transform != objectHit) && objectHit.GetComponent<PickItem>() != null)
-                    {
-                        var itemTmp = objectHit.GetComponent<PickItem>();
+                    if ((_detectedItem != null && _detectedItem.transform == objectHit) ||
+                        objectHit.GetComponent<PickItem>() == null) return;
+                    var itemTmp = objectHit.GetComponent<PickItem>();
 
-                        for (var i = 0; i < availableItems.Length; i++)
-                        {
-                            if (availableItems[i].itemName != itemTmp.itemName) continue;
-                            _detectedItem = itemTmp;
-                            _detectedItemIndex = i;
-                        }
+                    for (var i = 0; i < availableItems.Length; i++)
+                    {
+                        if (availableItems[i].itemName != itemTmp.itemName) continue;
+                        _detectedItem = itemTmp;
+                        _detectedItemIndex = i;
                     }
                 }
                 else
@@ -151,7 +150,7 @@ namespace Player
                 {
                     GUILayout.BeginHorizontal();
                 
-                    for (int a = 0; a < 3; a++)
+                    for (var a = 0; a < 3; a++)
                     {
                         if (i + a >= itemSlots.Length) continue;
                         if (_itemIndexToDrag == i + a || (_itemIndexToDrag > -1 && _hoveringOverIndex == i + a))
@@ -175,8 +174,8 @@ namespace Player
                             GUILayout.Box("", GUILayout.Width(95), GUILayout.Height(95));
                         }
 
-                        Rect lastRect = GUILayoutUtility.GetLastRect();
-                        Vector2 eventMousePositon = Event.current.mousePosition;
+                        var lastRect = GUILayoutUtility.GetLastRect();
+                        var eventMousePositon = Event.current.mousePosition;
                         if (Event.current.type == EventType.Repaint && lastRect.Contains(eventMousePositon))
                         {
                             _hoveringOverIndex = i + a;
@@ -217,20 +216,16 @@ namespace Player
                 GUI.Box(new Rect(Input.mousePosition.x, Screen.height - Input.mousePosition.y - 30, 100, 25), availableItems[itemSlots[_hoveringOverIndex]].itemName);
             }
 
-            if (!_showInventory)
-            {
-                GUI.color = _detectedItem ? Color.green : Color.white;
-                GUI.DrawTexture(new Rect(Screen.width / 2 - 4, Screen.height / 2 - 4, 8, 8), crosshairTexture);
-                GUI.color = Color.white;
+            if (_showInventory) return;
+            GUI.color = _detectedItem ? Color.green : Color.white;
+            GUI.DrawTexture(new Rect(Screen.width / 2 - 4, Screen.height / 2 - 4, 8, 8), crosshairTexture);
+            GUI.color = Color.white;
 
-                if (_detectedItem)
-                {
-                    GUI.color = new Color(0, 0, 0, 0.84f);
-                    GUI.Label(new Rect(Screen.width / 2 - 75 + 1, Screen.height / 2 - 50 + 1, 150, 20), "Press 'F' to pick '" + _detectedItem.itemName + "'");
-                    GUI.color = Color.green;
-                    GUI.Label(new Rect(Screen.width / 2 - 75, Screen.height / 2 - 50, 150, 20), "Press 'F' to pick '" + _detectedItem.itemName + "'");
-                }
-            }
+            if (!_detectedItem) return;
+            GUI.color = new Color(0, 0, 0, 0.84f);
+            GUI.Label(new Rect(Screen.width / 2 - 75 + 1, Screen.height / 2 - 50 + 1, 150, 20), "Press 'F' to pick '" + _detectedItem.itemName + "'");
+            GUI.color = Color.green;
+            GUI.Label(new Rect(Screen.width / 2 - 75, Screen.height / 2 - 50, 150, 20), "Press 'F' to pick '" + _detectedItem.itemName + "'");
         }
     }
 }

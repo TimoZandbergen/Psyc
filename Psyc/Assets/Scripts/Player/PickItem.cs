@@ -7,7 +7,7 @@ namespace Player
         public string itemName = "Some Item"; 
         public Texture itemPreview;
 
-        void Start()
+        private void Start()
         {
             gameObject.tag = "Respawn";
         }
