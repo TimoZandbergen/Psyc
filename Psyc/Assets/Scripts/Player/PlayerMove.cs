@@ -1,42 +1,58 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour
+namespace Player
 {
-    public CharacterController controller;
-    public float speed = 12f;
-    public float gravity = -9.81f;
+    [RequireComponent(typeof(CharacterController))]
 
-    public Transform groundCheck;
-    public float groundDistance = 0.4f;
-    public LayerMask groundMask;
-
-    Vector3 velocity;
-    bool isGrounded;
-
-    // Update is called once per frame
-    void Update()
+    public class PlayerMove : MonoBehaviour
     {
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        [SerializeField] private float speed = 7.5f;
+        [SerializeField] private float jumpSpeed = 8.0f;
+        [SerializeField] private float gravity = 20.0f;
+        public Camera playerCamera;
+        [SerializeField] private float lookSpeed = 2.0f;
+        [SerializeField] private float lookXLimit = 60.0f;
 
-        if(isGrounded && velocity.y < 0)
+        private CharacterController _characterController;
+        private Vector3 _moveDirection = Vector3.zero;
+        private Vector2 _rotation = Vector2.zero;
+
+        [HideInInspector]
+        public bool canMove = true;
+
+        void Start()
         {
-            velocity.y = -2f;
+            _characterController = GetComponent<CharacterController>();
+            _rotation.y = transform.eulerAngles.y;
         }
 
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+        void Update()
+        {
+            if (_characterController.isGrounded)
+            {
+                Vector3 forward = transform.TransformDirection(Vector3.forward);
+                Vector3 right = transform.TransformDirection(Vector3.right);
+                float curSpeedX = speed * Input.GetAxis("Vertical");
+                float curSpeedY = speed * Input.GetAxis("Horizontal");
+                _moveDirection = (forward * curSpeedX) + (right * curSpeedY);
 
-        Vector3 move = transform.right * x + transform.forward * z;
+                if (Input.GetButton("Jump"))
+                {
+                    _moveDirection.y = jumpSpeed;
+                }
+            }
+            _moveDirection.y -= gravity * Time.deltaTime;
 
-        controller.Move(move * speed * Time.deltaTime);
+            _characterController.Move(_moveDirection * Time.deltaTime);
 
-
-        velocity.y += gravity * Time.deltaTime;
-
-        controller.Move(velocity * Time.deltaTime);
+            if (canMove)
+            {
+                _rotation.y += Input.GetAxis("Mouse X") * lookSpeed;
+                _rotation.x += -Input.GetAxis("Mouse Y") * lookSpeed;
+                _rotation.x = Mathf.Clamp(_rotation.x, -lookXLimit, lookXLimit);
+                playerCamera.transform.localRotation = Quaternion.Euler(_rotation.x, 0, 0);
+                transform.eulerAngles = new Vector2(0, _rotation.y);
+            }
+        }
     }
 }
