@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Player
@@ -33,7 +34,9 @@ namespace Player
 
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Tab))
+            //if(Input.GetKey(KeyCode.Mouse0))
+                
+                if (Input.GetKeyDown(KeyCode.Tab))
             {
                 _showInventory = !_showInventory;
                 _animationTimer = 0;
@@ -58,6 +61,7 @@ namespace Player
             if (_showInventory)
             {
                 _windowAnimation = Mathf.Lerp(_windowAnimation, 0, _animationTimer);
+                
                 playerController.canMove = false;
             }
             else
@@ -76,7 +80,8 @@ namespace Player
                 if (_hoveringOverIndex < 0)
                 {
                     var transform1 = playerController.playerCamera.transform;
-                    Instantiate(availableItems[itemSlots[_itemIndexToDrag]], transform1.position + (transform1.forward), Quaternion.identity);
+                    PickItem obj = Instantiate(availableItems[itemSlots[_itemIndexToDrag]], transform1.position + (transform1.forward), Quaternion.identity);
+                    obj.gameObject.GetComponent<Rigidbody>().useGravity = true;
                     itemSlots[_itemIndexToDrag] = -1;
                 }
                 else
@@ -86,21 +91,24 @@ namespace Player
                 _itemIndexToDrag = -1;
             }
 
-            if (_detectedItem && _detectedItemIndex > -1)
+            if (!_detectedItem || _detectedItemIndex <= -1) return;
+            if (!Input.GetKeyDown(KeyCode.F)) return;
+            var slotToAddTo = -1;
+            for (var i = 0; i < itemSlots.Length; i++)
             {
-                if (!Input.GetKeyDown(KeyCode.F)) return;
-                int slotToAddTo = -1;
-                for (int i = 0; i < itemSlots.Length; i++)
-                {
-                    if (itemSlots[i] != -1) continue;
-                    slotToAddTo = i;
-                    break;
-                }
-
-                if (slotToAddTo <= -1) return;
-                itemSlots[slotToAddTo] = _detectedItemIndex;
-                _detectedItem.PickUpItem();
+                if (itemSlots[i] != -1) continue;
+                slotToAddTo = i;
+                break;
             }
+
+            if (slotToAddTo <= -1) return;
+            itemSlots[slotToAddTo] = _detectedItemIndex;
+            _detectedItem.PickUpItem();
+        }
+
+        private void OnMouseUp()
+        {
+            
         }
 
         void FixedUpdate()
