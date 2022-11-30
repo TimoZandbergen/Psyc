@@ -10,7 +10,10 @@ public class DoorOpen_Close : MonoBehaviour
     private bool opened = false;
     private Animator anim;
 
-
+    private void Start()
+    {
+        opened = true;
+    }
 
     void Update()
     {
