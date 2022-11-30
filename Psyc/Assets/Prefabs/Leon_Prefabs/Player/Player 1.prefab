@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 7735990636614522269}
   - component: {fileID: 7735990636614522268}
   - component: {fileID: 7735990636614522271}
-  - component: {fileID: 2335153773625867702}
+  - component: {fileID: 8165974681322370555}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -116,7 +116,7 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7735990636614522270}
   m_Enabled: 1
---- !u!114 &2335153773625867702
+--- !u!114 &8165974681322370555
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,8 +159,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7735990637505615327}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.711269, y: 0.81, z: -1.4209952}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalPosition: {x: 9.711269, y: 2.01, z: -1.4209952}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7735990636614522269}
@@ -246,7 +246,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 8640578166943933594}
   speed: 6
-  sprintspeed: 9
   gravity: -9.81
   groundCheck: {fileID: 9163780264782820946}
   groundDistance: 0.4
