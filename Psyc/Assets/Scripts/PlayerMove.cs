@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,37 +6,38 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     public CharacterController controller;
-
-    public float speed = 12f;
-    public float gravity = -9.81f;
+    [SerializeField] private float speed = 12f;
+    [SerializeField] private float sprintspeed = 16f;
+    [SerializeField] private float gravity = -9.81f;
 
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
-    Vector3 velocity;
-    bool isGrounded;
+    private Vector3 _velocity;
+    private bool _isGrounded;
 
     // Update is called once per frame
     void Update()
     {
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        _isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-        if(isGrounded && velocity.y < 0)
-        {
-            velocity.y = -2f;
-        }
-
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
+        if(_isGrounded && _velocity.y < 0) _velocity.y = -2f;
+        
+        var x = Input.GetAxis("Horizontal");
+        var z = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
 
-        controller.Move(move * speed * Time.deltaTime);
+        controller.Move(move * speed * Time.deltaTime);  
+            
+        _velocity.y += gravity * Time.deltaTime;
+
+        controller.Move(_velocity * Time.deltaTime);
+
+        if (Input.GetKeyDown(KeyCode.LeftShift)) speed = sprintspeed;
+        else if (Input.GetKeyUp(KeyCode.LeftShift)) speed = 4f;
 
 
-        velocity.y += gravity * Time.deltaTime;
-
-        controller.Move(velocity * Time.deltaTime);
     }
 }
