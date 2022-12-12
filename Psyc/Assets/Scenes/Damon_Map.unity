@@ -122,7 +122,6 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-<<<<<<< HEAD
   m_NavMeshData: {fileID: 0}
 --- !u!1001 &658500467
 PrefabInstance:
@@ -193,7 +192,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 937e5cd883dc1904e95ea71524116054, type: 3}
-=======
   m_NavMeshData: {fileID: 23800000, guid: 1d5f95222b0d27448bde5c7ab428caeb, type: 2}
 --- !u!1 &107875061 stripped
 GameObject:
@@ -392,7 +390,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> 2ce74a3cc52c3c607f049f19620710518e9fc56d
 --- !u!1 &1062459653
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,7 +482,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1350657890
@@ -566,7 +562,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1156940601
@@ -829,4 +824,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 316dffc2b2242e744bd2fe54225e4784, type: 3}
->>>>>>> 2ce74a3cc52c3c607f049f19620710518e9fc56d
