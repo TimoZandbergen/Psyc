@@ -146,8 +146,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.26, y: 1.22, z: 1}
-  m_Center: {x: 0, y: 0.78, z: 0}
+  m_Size: {x: 0.26, y: 1.68, z: 0.28}
+  m_Center: {x: 0, y: 1.05, z: 0}
 --- !u!1 &1014755491
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,14 +172,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014755491}
-  m_LocalRotation: {x: 0.4420176, y: -0, z: -0, w: 0.8970064}
-  m_LocalPosition: {x: 0.077056885, y: 1.7472038, z: 0.014465332}
+  m_LocalRotation: {x: 0.40588543, y: -0, z: -0, w: 0.9139239}
+  m_LocalPosition: {x: 0.0036, y: 1.7472038, z: 0.014465332}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 107875066}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 52.465, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 47.893, y: 0, z: 0}
 --- !u!108 &1014755493
 Light:
   m_ObjectHideFlags: 0
@@ -192,9 +192,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 4.65
+  m_Intensity: 3
   m_Range: 10
-  m_SpotAngle: 30
+  m_SpotAngle: 64
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -498,6 +498,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1962887788, guid: 0a882aafdabfd494bbcf669ce62fcff9, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1962887789, guid: 0a882aafdabfd494bbcf669ce62fcff9, type: 3}
       propertyPath: player
       value: 
@@ -510,7 +514,7 @@ PrefabInstance:
     - target: {fileID: 7397991180182802216, guid: 0a882aafdabfd494bbcf669ce62fcff9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 224.62395
+      value: 225.274
       objectReference: {fileID: 0}
     - target: {fileID: 7397991180182802216, guid: 0a882aafdabfd494bbcf669ce62fcff9,
         type: 3}
@@ -520,7 +524,7 @@ PrefabInstance:
     - target: {fileID: 7397991180182802216, guid: 0a882aafdabfd494bbcf669ce62fcff9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 791.41956
+      value: 792.661
       objectReference: {fileID: 0}
     - target: {fileID: 7397991180182802216, guid: 0a882aafdabfd494bbcf669ce62fcff9,
         type: 3}
