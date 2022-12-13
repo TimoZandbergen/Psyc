@@ -108,7 +108,7 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
-    agentSlope: 45
+    agentSlope: 60
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
@@ -148,6 +148,64 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.26, y: 1.68, z: 0.28}
   m_Center: {x: 0, y: 1.05, z: 0}
+--- !u!114 &107875068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107875061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d747138e4dd97b84cb35adc971da8654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 3
+--- !u!1 &967018520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 967018522}
+  - component: {fileID: 967018521}
+  m_Layer: 0
+  m_Name: Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &967018521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967018520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7893cf6dfad45c34194526b2a24db46d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Range: 5
+--- !u!4 &967018522
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967018520}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 232.22, y: 9.651512, z: 792.6965}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1014755491
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,7 +316,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 95
   m_IsActive: 1
 --- !u!154 &1016799989
 TerrainCollider:
@@ -499,13 +557,29 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1962887788, guid: 0a882aafdabfd494bbcf669ce62fcff9, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962887788, guid: 0a882aafdabfd494bbcf669ce62fcff9, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962887788, guid: 0a882aafdabfd494bbcf669ce62fcff9, type: 3}
+      propertyPath: m_AngularSpeed
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962887788, guid: 0a882aafdabfd494bbcf669ce62fcff9, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1962887789, guid: 0a882aafdabfd494bbcf669ce62fcff9, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1953416033}
+    - target: {fileID: 1962887789, guid: 0a882aafdabfd494bbcf669ce62fcff9, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7397991180182802216, guid: 0a882aafdabfd494bbcf669ce62fcff9,
         type: 3}
       propertyPath: m_RootOrder
@@ -514,7 +588,7 @@ PrefabInstance:
     - target: {fileID: 7397991180182802216, guid: 0a882aafdabfd494bbcf669ce62fcff9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 225.274
+      value: 222.95
       objectReference: {fileID: 0}
     - target: {fileID: 7397991180182802216, guid: 0a882aafdabfd494bbcf669ce62fcff9,
         type: 3}
@@ -524,7 +598,7 @@ PrefabInstance:
     - target: {fileID: 7397991180182802216, guid: 0a882aafdabfd494bbcf669ce62fcff9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 792.661
+      value: 793.71
       objectReference: {fileID: 0}
     - target: {fileID: 7397991180182802216, guid: 0a882aafdabfd494bbcf669ce62fcff9,
         type: 3}
